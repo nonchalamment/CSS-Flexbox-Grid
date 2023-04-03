@@ -57,26 +57,28 @@ header {
 
 div.rating {
     height: 80px;
-    background-color: rgb(213, 213, 213)
+    background-color: rgb(213, 213, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 div.rating > p {
-    margin: 20px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+    margin: 0px auto;
+    padding: 5px;
+    letter-spacing: 1.2px;
 }
 
 div.pricing {
     height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 div.pricing > p {
-    margin: 15px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    margin: 0px auto;
+    padding: 5px;
 }
 
 #promotion {
